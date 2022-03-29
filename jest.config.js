@@ -11,5 +11,6 @@ module.exports = {
   transform: {
     '.+\\.ts$': 'ts-jest'
   },
+  watchPathIgnorePatterns: ['globalConfig'],
   preset: '@shelf/jest-mongodb'
 }
